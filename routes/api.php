@@ -22,3 +22,4 @@ Route::post('/insertLunch', [App\Http\Controllers\LunchController::class, "inser
 
 Route::get('/getEmployee', [App\Http\Controllers\LunchController::class, "getEmployee"]);
 Route::post('/getHistory', [App\Http\Controllers\LunchController::class, "getHistory"]);
+Route::post('/LineNotify', [App\Http\Controllers\LunchController::class, "LineNotify"]);
