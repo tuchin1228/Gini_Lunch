@@ -88,7 +88,6 @@ class LunchController extends Controller
         }
         History::insert($write_data);
         $this->LineNotify($msg);
-        // return [$write_data, $employee_total];
         return ['success' => true];
 
     }
